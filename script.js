@@ -8,8 +8,6 @@ function calculateWinner(playerSelection, computerSelection) {
    
     if(playerSelection === computerSelection) {
         console.log("DRAW");
-        computerScore++;
-        playerScore++;
         displayWinner.textContent = "It's a DRAW";
         return "It's a DRAW!";
         
